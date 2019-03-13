@@ -37,8 +37,7 @@ public class DispatcherController {
 	
 	@RequestMapping("/main")
 	public String main() {
-		return "main";//456
-		//789
+		return "main";//789
 	}
 	
 	@RequestMapping("/doLogin")
